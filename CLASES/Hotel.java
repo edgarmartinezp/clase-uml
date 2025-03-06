@@ -36,5 +36,10 @@ class Hotel {
 	public void setReservas(ArrayList<Reserva> reservas) {
 		this.reservas = reservas;
 	}
-    
+
+	@Override
+	public String toString() {
+		return "Hotel [habitaciones=" + habitaciones + ", clientes=" + clientes + ", reservas=" + reservas + "]";
+	}
+	
 }
